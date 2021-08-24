@@ -1,0 +1,8 @@
+
+
+dumpProject="project-prod"
+dumpLogstore = ["test"]
+
+receiveProject="project-dev"
+#receiveLogstore = ["test","device-beautiful","favorite","ota","player","player-beautiful","search"]
+receiveLogstore = ["test"]
