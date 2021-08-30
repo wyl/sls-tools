@@ -5,15 +5,14 @@
 - sls-tools
 - config.toml
 ### 执行命令
-> 维护的时候记得更改配置文件中的 logstore 的名称
-> 支持全部索引格式
->
+维护的时候记得更改配置文件中的 Logstore 的名称，支持全部索引格式。
+
 
 ./sls-tools
 
 ### 如果Logstore 在目标 Project 中已存在 
-> `备份的目录为 ./logstore`
->
+`备份的目录为 ./logstore`
+
 
 ```
 wangyalong@wangyalongde-MacBook-Pro-for-Job sls-tools$ ./sls-tools
