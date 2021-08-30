@@ -26,7 +26,7 @@ receiveLogstore = ["test"]
 
 ```
 
-### 如果已存在 logstore：
+如果已存在 logstore：
 ```shell
 wangyalong@wangyalongde-MacBook-Pro-for-Job sls-tools$ ./sls-tools
 INFO 2021/08/24 17:01:40 project-prod -> test 备份完毕。
@@ -44,7 +44,7 @@ INFO 2021/08/24 17:00:53 project-dev -> test 覆盖索引！
 INFO 2021/08/24 17:00:14 project-dev -> test 执行完毕。
 ```
 
-### 如果不存在 logstore：
+如果不存在 logstore：
 ```
 wangyalong@wangyalongde-MacBook-Pro-for-Job sls-tools$ ./sls-tools 
 INFO 2021/08/24 17:04:46 project-prod -> test 备份完毕。
